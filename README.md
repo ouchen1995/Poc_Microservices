@@ -33,7 +33,9 @@ Orchestration - an orchestrator (object) tells the participants what local trans
 ## Pattern: API Composition
   it is no longer straightforward to implement queries that join data from multiple services.    
 Implement a query by defining an API Composer, which invoking the services that own the data and performs an in-memory join of the results.
- 
+
+ ![apibasedquerybigpicture](https://user-images.githubusercontent.com/18565538/46916800-785b1500-cfb7-11e8-9cbb-92886a05eb74.png)
+
  
 # Prerequisite 
 
