@@ -12,6 +12,8 @@ Services can be developed and deployed independently of one another.
 Each service has its own database in order to be decoupled from other services. Data consistency between services is maintained using the Saga pattern
 ## The Scale Cube
 
+![decomposingapplications 021](https://user-images.githubusercontent.com/18565538/46916786-3d58e180-cfb7-11e8-97fe-3e1439b27a1a.jpg)
+
             
 X-axis scaling consists of running multiple copies of an application behind a load balancer. If there are N copies then each copy handles 1/N of the load. This is a simple, commonly used approach of scaling an application.
 Y-axis scaling
@@ -33,8 +35,6 @@ Orchestration - an orchestrator (object) tells the participants what local trans
 Implement a query by defining an API Composer, which invoking the services that own the data and performs an in-memory join of the results.
  
  
-## Pattern: API Gateway / Backend for Front-End
-
 # Prerequisite 
 
 Instal java 8 
